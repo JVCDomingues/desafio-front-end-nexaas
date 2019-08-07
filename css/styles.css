@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header-logo {
+   padding: 1.5em;
+   border-bottom: 2px solid #b8c3c7;
+}
+
+.sidebar {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    border-right: 2px solid #b8c3c7;
+}
+
+.sidebar ul li {
+    padding: 1.2em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    background: #f4f9ff
+}
+
+.active {
+    border-left: 4px solid #25cbfb;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #7e7e7e;
+    padding-left: 10px;
+}
+
+.sidebar .sidebar-footer {
+    position: absolute;
+    top: 93%;
+    left: 20%;
+}
+
+.sidebar .sidebar-footer p {
+    padding: 1.2em;
+    color: #7e7e7e;
+}
+
+.top-nav {
+    display: flex;
+    position: relative;
+    left: 15%;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 1em;
+    padding-bottom: .8em;
+    border-bottom: 2px solid #b8c3c7;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.input-busca {
+    width: 450%;
+    padding: .7em;
+    border-radius: 1.5em;
+    border: 1px solid #cdcdcd;
+}
