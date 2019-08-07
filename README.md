@@ -1,1 +1,2 @@
-# desafio-front-end-nexaas
+# Desafio Front End Nexaas
+HTML, CSS, JS
